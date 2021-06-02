@@ -1,0 +1,55 @@
+.error-message {
+    color: #cc3d3d;
+    font-size: 13px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.totp-modal {
+    min-width: 50%;
+}
+
+.movements-parent-container {
+    min-width: 100%;
+}
+
+.movements-container {
+    display: flex !important;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.movement-img {
+    width: 20%;
+    margin: auto;
+}
+
+.totp-instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.totp-instructions div {
+    margin-bottom: 6px;
+}
+
+.totp-input-container {
+    margin: auto;
+    margin-top: 24px;
+}
+
+.totp-input-container > div {
+    align-items: center;
+    justify-content: center;
+}
+
+.totp-input > input {
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 3em;
+    width: 14%;
+}
